@@ -1,0 +1,23 @@
+{
+  "name": "hatim-portfolio",
+  "version": "1.0.0",
+  "description": "Hatim's Portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoHiro/hatim-portfolio.git"
+  },
+  "author": "Hatim El Housni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoHiro/hatim-portfolio/issues"
+  },
+  "homepage": "https://github.com/RoHiro/hatim-portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
